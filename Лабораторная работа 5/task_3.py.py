@@ -4,7 +4,6 @@
 from random import randint
 
 
-numbers1 = [20, 20, 30, 30, 40]
 numbers = [randint(-10, 10) for i in range(15)]
 
 def get_unique_numbers(numbers):
